@@ -1,0 +1,7 @@
+print("Введите ваше имя: ")
+name = input()
+print("Введите ваш пароль: ")
+password = input()
+print("Введите ваш возраст: ")
+age = input()
+print(f"Имя - {name}, пароль - {password}, возраст - {age}")
