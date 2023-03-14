@@ -18,5 +18,7 @@ if revenue > costs:
     employeesNum = int(input('Введите численность сотрудников: '))
     profitPerEmp = profit / employeesNum
     print(f'Прибыль фирмы в расчете на одного сотрудника: {profitPerEmp}')
+elif revenue == costs:
+    print('Фирма отработала без прибыли.')
 else:
     print('Фирма отработала с убытком!!')
