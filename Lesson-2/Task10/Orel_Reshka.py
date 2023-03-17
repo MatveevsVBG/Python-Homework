@@ -10,8 +10,8 @@ orel = 0
 reshka = 0
 for i in range(n):
     coin = int(input("Введите значение монетки: Орёл(1) или Решка(0)? "
-                     + str(i+1) + ": "))
-    if coin ==1:
+                     + str(i + 1) + ": "))
+    if coin == 1:
         orel += 1
     else:
         reshka += 1
