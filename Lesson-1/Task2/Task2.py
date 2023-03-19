@@ -1,0 +1,5 @@
+print("Введите время в секундах: ")
+sec = int(input())
+hours = round(sec/3600, 1)
+minutes = round(sec/60, 1)
+print(f'Время  {hours} : {minutes} : {sec}')
