@@ -15,7 +15,7 @@ def exponent(x, y):
         return exponent(x, y-1) * x
 
 
-a = int(input("Введите число: "))
+a = float(input("Введите число: "))
 try:
     b = int(input("Введите степень числа: "))
 except ValueError:
