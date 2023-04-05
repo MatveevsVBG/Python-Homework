@@ -1,0 +1,53 @@
+{
+    "orders": [
+        {
+            "item": "принтер",
+            "quantity": "10",
+            "price": "6700",
+            "buyer": "Ivanov I.I.",
+            "date": "24.09.2017"
+        },
+        {
+            "item": "scaner",
+            "quantity": "20",
+            "price": "10000",
+            "buyer": "Petrov P.P.",
+            "date": "11.01.2018"
+        },
+        {
+            "item": "scaner",
+            "quantity": "20",
+            "price": "10000",
+            "buyer": "Petrov P.P.",
+            "date": "11.01.2018"
+        },
+        {
+            "item": "scaner",
+            "quantity": "20",
+            "price": "10000",
+            "buyer": "Petrov P.P.",
+            "date": "11.01.2018"
+        },
+        {
+            "item": "Марк Лутц - Изучаем Python",
+            "quantity": "10",
+            "price": "300",
+            "buyer": "Иванов",
+            "date": "03.04.2023"
+        },
+        {
+            "item": "Майкл Доусон - Программируем на Python",
+            "quantity": "15",
+            "price": "400",
+            "buyer": "Петров",
+            "date": "04.04.2023"
+        },
+        {
+            "item": "Дэн Бейдер - Чистый Python. Тонкости программирования для профи",
+            "quantity": "20",
+            "price": "500",
+            "buyer": "Сидоров",
+            "date": "05.04.2023"
+        }
+    ]
+}
