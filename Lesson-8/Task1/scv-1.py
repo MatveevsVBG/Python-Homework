@@ -44,7 +44,7 @@ def get_data():
 
     # Перебираем файлы в цикле, открываем и считываем данные
     for filename in range(1, 4):
-        with open(f'info_{filename}.txt') as f:
+        with open(f'info_{filename}.txt', encoding="utf-8") as f:
             file_data = f.read()
 
         # Извлекаем значения параметров с помощью регулярных выражений
