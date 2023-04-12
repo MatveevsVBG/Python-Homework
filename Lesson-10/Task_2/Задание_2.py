@@ -12,10 +12,9 @@
 
 words = ['class', 'function', 'method']
 
-byte_lists = [bytes(word, 'utf-8') for word in words]
-
-for i, byte_list in enumerate(byte_lists):
-    print(f"Слово {words[i]}:")
-    print(f"\tТип: {type(byte_list)}")
-    print(f"\tСодержимое: {byte_list}")
-    print(f"\tДлина: {len(byte_list)}")
+for word in words:
+    byte_word = bytes(word, "ascii")
+    print(f'Переменная {word}:')
+    print(f"\tТип: {type(byte_word)}")
+    print(f"\tСодержимое: {byte_word}")
+    print(f"\tДлина: {len(byte_word)}")
