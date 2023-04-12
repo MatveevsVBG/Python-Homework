@@ -1,3 +1,6 @@
+"""
+ реализовать дескрипторы для класса
+"""
 class NumValidator:
     def __set__(self, instance, value):
         if not isinstance(value, int):

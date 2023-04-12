@@ -1,3 +1,6 @@
+"""
+ реализовать дескрипторы для класса
+"""
 class StrValidator:
     def __set__(self, instance, value):
         if not isinstance(value, str):
